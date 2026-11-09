@@ -1,0 +1,66 @@
+# Publish a release whenever the plugin version on main has no tag yet.
+# The release carries adeldev-organisation.zip and release.json, which the
+# plugin's updater (includes/updater.php) reads to offer the update to sites.
+
+name: Release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Read the version
+        id: version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          header=$(grep -oP '^ \* Version:\s*\K[0-9.]+' adeldev-organisation.php)
+          constant=$(grep -oP "ADELDEV_ORG_VERSION', '\K[0-9.]+" adeldev-organisation.php)
+          if [ "$header" != "$constant" ]; then
+            echo "Version header ($header) and ADELDEV_ORG_VERSION ($constant) differ." >&2
+            exit 1
+          fi
+          echo "version=$header" >> "$GITHUB_OUTPUT"
+          if gh release view "v$header" > /dev/null 2>&1; then
+            echo "v$header already released."
+          else
+            echo "new=1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build the zip
+        if: steps.version.outputs.new
+        run: |
+          mkdir -p build/adeldev-organisation
+          git archive HEAD | tar -x -C build/adeldev-organisation
+          cd build && zip -qr adeldev-organisation.zip adeldev-organisation
+
+      - name: Write release.json
+        if: steps.version.outputs.new
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+          REPO: ${{ github.repository }}
+        run: |
+          # Read by includes/updater.php through releases/latest/download.
+          jq -n --arg v "$VERSION" --arg r "$REPO" '{
+            version: $v,
+            package: "https://github.com/\($r)/releases/download/v\($v)/adeldev-organisation.zip",
+            url: "https://github.com/\($r)/releases/tag/v\($v)"
+          }' > build/release.json
+
+      - name: Publish the release
+        if: steps.version.outputs.new
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          gh release create "v$VERSION" build/adeldev-organisation.zip build/release.json \
+            --title "v$VERSION" --generate-notes --target "$GITHUB_SHA"

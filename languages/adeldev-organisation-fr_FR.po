@@ -1,0 +1,487 @@
+# Copyright (C) 2026 Adel Mahjoub
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Adeldev Organisation 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/adeldev-organisation\n"
+"Last-Translator: Adel Mahjoub\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-09T10:56:48+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: adeldev-organisation\n"
+
+#. Plugin Name of the plugin
+#: adeldev-organisation.php
+msgid "Adeldev Organisation"
+msgstr "Adeldev Organisation"
+
+#. Plugin URI of the plugin
+#: adeldev-organisation.php
+msgid "https://github.com/AdelMahjoub/adeldev-organisation"
+msgstr "https://github.com/AdelMahjoub/adeldev-organisation"
+
+#. Description of the plugin
+#: adeldev-organisation.php
+msgid "The organisation's details (name, contact, address, opening hours, social networks, legal notice) entered once, in every site language, and reused everywhere: block bindings, inline insertion in text, shortcode, editor panel."
+msgstr "Les informations de l’organisation (nom, contact, adresse, horaires, réseaux sociaux, mentions légales) saisies une fois, dans chaque langue du site, et réutilisées partout : liaisons de blocs, insertion dans le texte, shortcode, panneau de l’éditeur."
+
+#. Author of the plugin
+#: adeldev-organisation.php
+msgid "Adel Mahjoub"
+msgstr "Adel Mahjoub"
+
+#. Author URI of the plugin
+#: adeldev-organisation.php
+msgid "https://adeldev.com/"
+msgstr "https://adeldev.com/"
+
+#: includes/display.php:27
+#: includes/settings.php:78
+#: includes/settings.php:114
+#: assets/editor.js:19
+msgid "Organisation details"
+msgstr "Informations de l’organisation"
+
+#: includes/display.php:202
+msgid "Links"
+msgstr "Liens"
+
+#: includes/display.php:203
+msgid "Site"
+msgstr "Site"
+
+#: includes/fields.php:35
+msgid "Identity"
+msgstr "Identité"
+
+#: includes/fields.php:38
+msgid "Name"
+msgstr "Nom"
+
+#: includes/fields.php:39
+msgid "Also the site title (Settings › General)."
+msgstr "C’est aussi le titre du site (Réglages › Général)."
+
+#: includes/fields.php:42
+msgid "Tagline"
+msgstr "Slogan"
+
+#: includes/fields.php:43
+msgid "Also the site tagline (Settings › General)."
+msgstr "C’est aussi le slogan du site (Réglages › Général)."
+
+#: includes/fields.php:46
+msgid "Legal name"
+msgstr "Raison sociale"
+
+#: includes/fields.php:47
+msgid "As registered, if different from the name."
+msgstr "Telle qu’enregistrée, si elle diffère du nom."
+
+#: includes/fields.php:49
+msgid "Acronym"
+msgstr "Sigle"
+
+#: includes/fields.php:51
+msgid "Short description"
+msgstr "Description courte"
+
+#: includes/fields.php:53
+msgid "One or two sentences presenting the organisation."
+msgstr "Une ou deux phrases qui présentent l’organisation."
+
+#: includes/fields.php:56
+msgid "Year founded"
+msgstr "Année de création"
+
+#: includes/fields.php:58
+msgid "Gives the computed value \"years of experience\"."
+msgstr "Donne la valeur calculée « années d’expérience »."
+
+#: includes/fields.php:63
+msgid "Contact"
+msgstr "Contact"
+
+#: includes/fields.php:66
+#: includes/fields.php:183
+msgid "Phone"
+msgstr "Téléphone"
+
+#: includes/fields.php:68
+msgid "As it should be displayed, e.g. +216 71 000 000."
+msgstr "Tel qu’il doit s’afficher, par ex. +216 71 000 000."
+
+#: includes/fields.php:71
+msgid "Second phone"
+msgstr "Deuxième téléphone"
+
+#: includes/fields.php:75
+msgid "WhatsApp number"
+msgstr "Numéro WhatsApp"
+
+#: includes/fields.php:77
+msgid "International format, e.g. +216 20 000 000."
+msgstr "Au format international, par ex. +216 20 000 000."
+
+#: includes/fields.php:80
+msgid "Default WhatsApp message"
+msgstr "Message WhatsApp par défaut"
+
+#: includes/fields.php:82
+msgid "Prefilled in WhatsApp when a visitor clicks a WhatsApp link."
+msgstr "Pré-rempli dans WhatsApp quand un visiteur clique sur un lien WhatsApp."
+
+#: includes/fields.php:85
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/fields.php:91
+#: includes/fields.php:181
+msgid "Address"
+msgstr "Adresse"
+
+#: includes/fields.php:94
+msgid "Street"
+msgstr "Rue"
+
+#: includes/fields.php:96
+msgid "Postal code"
+msgstr "Code postal"
+
+#: includes/fields.php:98
+msgid "City"
+msgstr "Ville"
+
+#: includes/fields.php:101
+msgid "Region"
+msgstr "Région"
+
+#: includes/fields.php:102
+msgid "State, governorate, department…"
+msgstr "État, gouvernorat, département…"
+
+#: includes/fields.php:105
+msgid "Country"
+msgstr "Pays"
+
+#: includes/fields.php:108
+#: includes/fields.php:217
+msgid "Map link"
+msgstr "Lien vers la carte"
+
+#: includes/fields.php:110
+msgid "Google Maps link. If empty, a map search for the address is used."
+msgstr "Lien Google Maps. S’il est vide, une recherche de l’adresse sur la carte est utilisée."
+
+#: includes/fields.php:115
+#: includes/fields.php:118
+msgid "Opening hours"
+msgstr "Horaires"
+
+#: includes/fields.php:120
+msgid "One line per day or group of days."
+msgstr "Une ligne par jour ou groupe de jours."
+
+#: includes/fields.php:123
+msgid "Opening hours (short)"
+msgstr "Horaires (version courte)"
+
+#: includes/fields.php:124
+msgid "One line, for a header or a button, e.g. Mon–Sat 9am–7pm."
+msgstr "Une ligne, pour un en-tête ou un bouton, par ex. Lun–Sam 9h–19h."
+
+#: includes/fields.php:129
+msgid "Social networks"
+msgstr "Réseaux sociaux"
+
+#: includes/fields.php:140
+msgid "Google reviews"
+msgstr "Avis Google"
+
+#: includes/fields.php:143
+msgid "Average rating"
+msgstr "Note moyenne"
+
+#: includes/fields.php:144
+msgid "Out of 5, as displayed, e.g. 4.8."
+msgstr "Sur 5, telle qu’affichée, par ex. 4,8."
+
+#: includes/fields.php:147
+msgid "Number of reviews"
+msgstr "Nombre d’avis"
+
+#: includes/fields.php:151
+msgid "Google Business Profile link"
+msgstr "Lien de la fiche Google"
+
+#: includes/fields.php:157
+msgid "Legal notice"
+msgstr "Mentions légales"
+
+#: includes/fields.php:160
+msgid "Legal form"
+msgstr "Forme juridique"
+
+#: includes/fields.php:161
+msgid "E.g. SARL, SAS, LLC, association."
+msgstr "Par ex. SARL, SAS, SUARL, association."
+
+#: includes/fields.php:164
+msgid "Share capital"
+msgstr "Capital social"
+
+#: includes/fields.php:165
+msgid "With its currency, e.g. 10 000 €."
+msgstr "Avec sa devise, par ex. 10 000 €."
+
+#: includes/fields.php:168
+msgid "Registration number"
+msgstr "Numéro d’immatriculation"
+
+#: includes/fields.php:169
+msgid "The official identifier, as it should be displayed: SIRET or RCS (France), tax ID or RNE (Tunisia), ICE or RC (Morocco), trade licence (UAE), association number… The label in front of it is written on the site."
+msgstr "L’identifiant officiel, tel qu’il doit s’afficher : SIRET ou RCS (France), matricule fiscal ou RNE (Tunisie), ICE ou RC (Maroc), licence commerciale (Émirats), numéro d’association… Le libellé qui le précède s’écrit sur le site."
+
+#: includes/fields.php:172
+msgid "Publication director"
+msgstr "Directeur de la publication"
+
+#: includes/fields.php:173
+msgid "Person responsible for the site content (legal notice)."
+msgstr "Personne responsable du contenu du site (mentions légales)."
+
+#: includes/fields.php:178
+#: includes/fields.php:180
+msgid "Hosting provider"
+msgstr "Hébergeur"
+
+#: includes/fields.php:187
+msgid "Website"
+msgstr "Site web"
+
+#: includes/fields.php:209
+msgid "Full address"
+msgstr "Adresse complète"
+
+#: includes/fields.php:210
+msgid "City and country"
+msgstr "Ville et pays"
+
+#: includes/fields.php:211
+msgid "Years of experience"
+msgstr "Années d’expérience"
+
+#: includes/fields.php:212
+msgid "Google rating, as a sentence"
+msgstr "Note Google, en phrase"
+
+#: includes/fields.php:213
+msgid "Phone link (tel:)"
+msgstr "Lien téléphone (tel:)"
+
+#: includes/fields.php:214
+msgid "Second phone link (tel:)"
+msgstr "Lien du deuxième téléphone (tel:)"
+
+#: includes/fields.php:215
+msgid "WhatsApp link"
+msgstr "Lien WhatsApp"
+
+#: includes/fields.php:216
+msgid "Email link (mailto:)"
+msgstr "Lien e-mail (mailto:)"
+
+#: includes/fields.php:218
+msgid "Copyright line"
+msgstr "Ligne de copyright"
+
+#: includes/fields.php:219
+msgid "Current year"
+msgstr "Année en cours"
+
+#. translators: separator between the parts of an address.
+#: includes/fields.php:373
+msgctxt "address separator"
+msgid ", "
+msgstr ", "
+
+#. translators: %s: average rating, e.g. 4.8.
+#: includes/fields.php:397
+#, php-format
+msgid "%s/5 on Google"
+msgstr "%s/5 sur Google"
+
+#. translators: 1: average rating, e.g. 4.8, 2: number of reviews.
+#: includes/fields.php:400
+#, php-format
+msgid "%1$s/5 on Google (%2$s review)"
+msgid_plural "%1$s/5 on Google (%2$s reviews)"
+msgstr[0] "%1$s/5 sur Google (%2$s avis)"
+msgstr[1] "%1$s/5 sur Google (%2$s avis)"
+
+#: includes/settings.php:79
+msgid "Organisation"
+msgstr "Organisation"
+
+#: includes/settings.php:115
+msgid "These details are entered once and reused everywhere on the site: header, footer, contact page, buttons, legal notice. Change them here and every page follows."
+msgstr "Ces informations se saisissent une fois et servent partout sur le site : en-tête, pied de page, page contact, boutons, mentions légales. Modifiez-les ici et toutes les pages suivent."
+
+#: includes/settings.php:118
+msgid "Languages"
+msgstr "Langues"
+
+#: includes/settings.php:128
+msgid "main language"
+msgstr "langue principale"
+
+#: includes/settings.php:134
+msgid "Every detail can have its own value in this language. An empty field shows the value of the main language (in grey)."
+msgstr "Chaque information peut avoir sa propre valeur dans cette langue. Un champ vide affiche la valeur de la langue principale (en gris)."
+
+#: includes/settings.php:202
+msgid "Shortcode:"
+msgstr "Shortcode :"
+
+#: includes/settings.php:215
+msgid "Using the details"
+msgstr "Utiliser les informations"
+
+#: includes/settings.php:217
+msgid "There are three ways to show a detail in a page, a post or a template. In every case the site shows the value entered here, in the language of the page, so changing it here updates every page."
+msgstr "Il y a trois façons d’afficher une information dans une page, un article ou un modèle. Dans tous les cas, le site affiche la valeur saisie ici, dans la langue de la page : la modifier ici met à jour toutes les pages."
+
+#: includes/settings.php:218
+msgid "Building button of the toolbar"
+msgstr "Bouton « immeuble » de la barre d’outils"
+
+#: includes/settings.php:218
+msgid "while writing a paragraph, heading, list or button, click the building icon in the block toolbar and choose a detail. It is inserted in the sentence, as text or as a link."
+msgstr "en écrivant un paragraphe, un titre, une liste ou un bouton, cliquez sur l’icône immeuble de la barre d’outils du bloc et choisissez une information. Elle s’insère dans la phrase, en texte ou en lien."
+
+#: includes/settings.php:219
+msgid "Block attributes"
+msgstr "Attributs du bloc"
+
+#: includes/settings.php:219
+msgid "for a whole block (a \"Call us\" button, a social icon), select the block, open \"Attributes\" in the settings sidebar, choose \"Organisation details\" and the detail."
+msgstr "pour un bloc entier (un bouton « Appelez-nous », une icône de réseau social), sélectionnez le bloc, ouvrez « Attributs » dans la barre latérale des réglages, choisissez « Informations de l’organisation » puis l’information."
+
+#: includes/settings.php:220
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/settings.php:220
+msgid "type or paste the code shown under each field. Click a code to copy it. The building icon at the top of the editor lists them all."
+msgstr "tapez ou collez le code affiché sous chaque champ. Cliquez sur un code pour le copier. L’icône immeuble en haut de l’éditeur les liste tous."
+
+#: includes/settings.php:221
+msgid "A block bound to a detail that is not filled in is not shown at all."
+msgstr "Un bloc lié à une information non renseignée n’est pas affiché du tout."
+
+#: includes/settings.php:232
+msgid "Computed values"
+msgstr "Valeurs calculées"
+
+#: includes/settings.php:233
+msgid "These values have no field: they are built from the details."
+msgstr "Ces valeurs n’ont pas de champ : elles sont construites à partir des informations."
+
+#: includes/settings.php:240
+msgid "Shortcode options"
+msgstr "Options du shortcode"
+
+#: includes/settings.php:242
+msgid "the value as text."
+msgstr "la valeur en texte."
+
+#: includes/settings.php:243
+msgid "the value as a link (email, phone, WhatsApp, map, social network)."
+msgstr "la valeur en lien (e-mail, téléphone, WhatsApp, carte, réseau social)."
+
+#: includes/settings.php:244
+msgid "a link with your own text."
+msgstr "un lien avec votre propre texte."
+
+#: includes/settings.php:248
+msgid "Site title and tagline"
+msgstr "Titre et slogan du site"
+
+#: assets/admin.js:27
+msgid "Copied"
+msgstr "Copié"
+
+#. translators: %s: the copied shortcode.
+#: assets/admin.js:30
+#: assets/editor.js:120
+#, js-format
+msgid "Copied: %s"
+msgstr "Copié : %s"
+
+#: assets/admin.js:40
+msgid "Click to copy"
+msgstr "Cliquer pour copier"
+
+#: assets/editor.js:60
+msgid "Organisation detail"
+msgstr "Information de l’organisation"
+
+#. translators: %s: name of a detail, e.g. Email.
+#: assets/editor.js:74
+#, js-format
+msgid "%s (link)"
+msgstr "%s (lien)"
+
+#: assets/editor.js:92
+msgid "Insert an organisation detail"
+msgstr "Insérer une information de l’organisation"
+
+#: assets/editor.js:101
+msgid "Organisation detail (link)"
+msgstr "Information de l’organisation (lien)"
+
+#: assets/editor.js:132
+msgid "(empty)"
+msgstr "(vide)"
+
+#: assets/editor.js:141
+msgid "Copy the shortcode"
+msgstr "Copier le shortcode"
+
+#: assets/editor.js:153
+msgid "Help"
+msgstr "Aide"
+
+#: assets/editor.js:154
+msgid "Details are entered once, in Organisation (admin menu). Every page shows the current value, in its own language."
+msgstr "Les informations se saisissent une fois, dans Organisation (menu de l’administration). Chaque page affiche la valeur à jour, dans sa langue."
+
+#: assets/editor.js:158
+msgid "In a sentence: click the building icon of the block toolbar and choose a detail, as text or as a link."
+msgstr "Dans une phrase : cliquez sur l’icône immeuble de la barre d’outils du bloc et choisissez une information, en texte ou en lien."
+
+#: assets/editor.js:159
+msgid "For a whole block (button, social icon): Block settings › Attributes › Organisation details."
+msgstr "Pour un bloc entier (bouton, icône de réseau social) : Réglages du bloc › Attributs › Informations de l’organisation."
+
+#: assets/editor.js:160
+msgid "Or copy a shortcode below and paste it in the text. Add link=\"1\" to make it a link, text=\"…\" for your own wording."
+msgstr "Ou copiez un shortcode ci-dessous et collez-le dans le texte. Ajoutez link=\"1\" pour en faire un lien, text=\"…\" pour votre propre formulation."
+
+#: assets/editor.js:163
+msgid "Edit the organisation details"
+msgstr "Modifier les informations de l’organisation"
+
+#: assets/editor.js:175
+msgid "Search a detail"
+msgstr "Rechercher une information"
+
+#: assets/editor.js:186
+msgid "No detail matches."
+msgstr "Aucune information ne correspond."
