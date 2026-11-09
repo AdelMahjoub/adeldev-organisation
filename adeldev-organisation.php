@@ -3,7 +3,7 @@
  * Plugin Name:       Adeldev Organisation
  * Plugin URI:        https://github.com/AdelMahjoub/adeldev-organisation
  * Description:       The organisation's details (name, contact, address, opening hours, social networks, legal notice) entered once, in every site language, and reused everywhere: block bindings, inline insertion in text, shortcode, editor panel.
- * Version:           0.1.0
+ * Version:           0.1.1
  * Requires at least: 6.9
  * Requires PHP:      8.1
  * Author:            Adel Mahjoub
@@ -19,7 +19,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ADELDEV_ORG_VERSION', '0.1.0' );
+define( 'ADELDEV_ORG_VERSION', '0.1.1' );
 define( 'ADELDEV_ORG_FILE', __FILE__ );
 define( 'ADELDEV_ORG_DIR', plugin_dir_path( __FILE__ ) );
 define( 'ADELDEV_ORG_URL', plugin_dir_url( __FILE__ ) );

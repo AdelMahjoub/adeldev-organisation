@@ -29,7 +29,7 @@ msgstr "https://github.com/AdelMahjoub/adeldev-organisation"
 #. Description of the plugin
 #: adeldev-organisation.php
 msgid "The organisation's details (name, contact, address, opening hours, social networks, legal notice) entered once, in every site language, and reused everywhere: block bindings, inline insertion in text, shortcode, editor panel."
-msgstr "Les informations de l’organisation (nom, contact, adresse, horaires, réseaux sociaux, mentions légales) saisies une fois, dans chaque langue du site, et réutilisées partout : liaisons de blocs, insertion dans le texte, shortcode, panneau de l’éditeur."
+msgstr "Les informations de l’organisation (nom, contact, adresse, horaires, réseaux sociaux, mentions légales) saisies une fois, dans chaque langue du site, et réutilisées partout : liaisons de blocs, insertion dans le texte, shortcode, panneau de l’éditeur."
 
 #. Author of the plugin
 #: adeldev-organisation.php
@@ -102,7 +102,7 @@ msgstr "Année de création"
 
 #: includes/fields.php:58
 msgid "Gives the computed value \"years of experience\"."
-msgstr "Donne la valeur calculée « années d’expérience »."
+msgstr "Donne la valeur calculée « années d’expérience »."
 
 #: includes/fields.php:63
 msgid "Contact"
@@ -246,7 +246,7 @@ msgstr "Numéro d’immatriculation"
 
 #: includes/fields.php:169
 msgid "The official identifier, as it should be displayed: SIRET or RCS (France), tax ID or RNE (Tunisia), ICE or RC (Morocco), trade licence (UAE), association number… The label in front of it is written on the site."
-msgstr "L’identifiant officiel, tel qu’il doit s’afficher : SIRET ou RCS (France), matricule fiscal ou RNE (Tunisie), ICE ou RC (Maroc), licence commerciale (Émirats), numéro d’association… Le libellé qui le précède s’écrit sur le site."
+msgstr "L’identifiant officiel, tel qu’il doit s’afficher : SIRET ou RCS (France), matricule fiscal ou RNE (Tunisie), ICE ou RC (Maroc), licence commerciale (Émirats), numéro d’association… Le libellé qui le précède s’écrit sur le site."
 
 #: includes/fields.php:172
 msgid "Publication director"
@@ -331,7 +331,7 @@ msgstr "Organisation"
 
 #: includes/settings.php:115
 msgid "These details are entered once and reused everywhere on the site: header, footer, contact page, buttons, legal notice. Change them here and every page follows."
-msgstr "Ces informations se saisissent une fois et servent partout sur le site : en-tête, pied de page, page contact, boutons, mentions légales. Modifiez-les ici et toutes les pages suivent."
+msgstr "Ces informations se saisissent une fois et servent partout sur le site : en-tête, pied de page, page contact, boutons, mentions légales. Modifiez-les ici et toutes les pages suivent."
 
 #: includes/settings.php:118
 msgid "Languages"
@@ -347,7 +347,7 @@ msgstr "Chaque information peut avoir sa propre valeur dans cette langue. Un cha
 
 #: includes/settings.php:202
 msgid "Shortcode:"
-msgstr "Shortcode :"
+msgstr "Shortcode :"
 
 #: includes/settings.php:215
 msgid "Using the details"
@@ -355,11 +355,11 @@ msgstr "Utiliser les informations"
 
 #: includes/settings.php:217
 msgid "There are three ways to show a detail in a page, a post or a template. In every case the site shows the value entered here, in the language of the page, so changing it here updates every page."
-msgstr "Il y a trois façons d’afficher une information dans une page, un article ou un modèle. Dans tous les cas, le site affiche la valeur saisie ici, dans la langue de la page : la modifier ici met à jour toutes les pages."
+msgstr "Il y a trois façons d’afficher une information dans une page, un article ou un modèle. Dans tous les cas, le site affiche la valeur saisie ici, dans la langue de la page : la modifier ici met à jour toutes les pages."
 
 #: includes/settings.php:218
 msgid "Building button of the toolbar"
-msgstr "Bouton « immeuble » de la barre d’outils"
+msgstr "Bouton « immeuble » de la barre d’outils"
 
 #: includes/settings.php:218
 msgid "while writing a paragraph, heading, list or button, click the building icon in the block toolbar and choose a detail. It is inserted in the sentence, as text or as a link."
@@ -371,7 +371,7 @@ msgstr "Attributs du bloc"
 
 #: includes/settings.php:219
 msgid "for a whole block (a \"Call us\" button, a social icon), select the block, open \"Attributes\" in the settings sidebar, choose \"Organisation details\" and the detail."
-msgstr "pour un bloc entier (un bouton « Appelez-nous », une icône de réseau social), sélectionnez le bloc, ouvrez « Attributs » dans la barre latérale des réglages, choisissez « Informations de l’organisation » puis l’information."
+msgstr "pour un bloc entier (un bouton « Appelez-nous », une icône de réseau social), sélectionnez le bloc, ouvrez « Attributs » dans la barre latérale des réglages, choisissez « Informations de l’organisation » puis l’information."
 
 #: includes/settings.php:220
 msgid "Shortcode"
@@ -391,7 +391,7 @@ msgstr "Valeurs calculées"
 
 #: includes/settings.php:233
 msgid "These values have no field: they are built from the details."
-msgstr "Ces valeurs n’ont pas de champ : elles sont construites à partir des informations."
+msgstr "Ces valeurs n’ont pas de champ : elles sont construites à partir des informations."
 
 #: includes/settings.php:240
 msgid "Shortcode options"
@@ -422,7 +422,7 @@ msgstr "Copié"
 #: assets/editor.js:120
 #, js-format
 msgid "Copied: %s"
-msgstr "Copié : %s"
+msgstr "Copié : %s"
 
 #: assets/admin.js:40
 msgid "Click to copy"
@@ -464,11 +464,11 @@ msgstr "Les informations se saisissent une fois, dans Organisation (menu de l’
 
 #: assets/editor.js:158
 msgid "In a sentence: click the building icon of the block toolbar and choose a detail, as text or as a link."
-msgstr "Dans une phrase : cliquez sur l’icône immeuble de la barre d’outils du bloc et choisissez une information, en texte ou en lien."
+msgstr "Dans une phrase : cliquez sur l’icône immeuble de la barre d’outils du bloc et choisissez une information, en texte ou en lien."
 
 #: assets/editor.js:159
 msgid "For a whole block (button, social icon): Block settings › Attributes › Organisation details."
-msgstr "Pour un bloc entier (bouton, icône de réseau social) : Réglages du bloc › Attributs › Informations de l’organisation."
+msgstr "Pour un bloc entier (bouton, icône de réseau social) : Réglages du bloc › Attributs › Informations de l’organisation."
 
 #: assets/editor.js:160
 msgid "Or copy a shortcode below and paste it in the text. Add link=\"1\" to make it a link, text=\"…\" for your own wording."
